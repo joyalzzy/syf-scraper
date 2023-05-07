@@ -1,0 +1,7 @@
+services:
+  syf-scrape:
+    image: syf-scrape:latest
+    build: .
+    env_file:
+      - .env
+
