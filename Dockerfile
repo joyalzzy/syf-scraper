@@ -12,4 +12,4 @@ RUN apt-get update && \
 WORKDIR /app
 COPY scrape.py . 
 RUN pip install pandas discord_webhook tabula-py
-CMD ["python", "-u", "scrape.py"]
+CMD ["python3", "-u", "scrape.py"]
